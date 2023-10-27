@@ -1,0 +1,57 @@
+
+ None selected 
+
+Skip to content
+Using Gmail with screen readers
+1 of 17,291
+Draft
+Inbox
+
+ankan garg <tataankan@gmail.com>
+4:13 PM (26 minutes ago)
+to me
+
+#purple Slice
+
+#switch 3
+fvctl -n add-flowspace pfs1 3 1 in_port=1,nw_src=10.0.0.1,nw_dst=10.0.0.2 purple=7
+fvctl -n add-flowspace pfs2 3 1 in_port=1,nw_src=10.0.0.1,nw_dst=10.0.0.3 purple=7
+fvctl -n add-flowspace pfs3 3 1 in_port=2,nw_src=10.0.0.2,nw_dst=10.0.0.1 purple=7
+fvctl -n add-flowspace pfs4 3 1 in_port=2,nw_src=10.0.0.2,nw_dst=10.0.0.3 purple=7
+fvctl -n add-flowspace pfs5 3 1 in_port=3,nw_src=10.0.0.3,nw_dst=10.0.0.1 purple=7
+fvctl -n add-flowspace pfs6 3 1 in_port=3,nw_src=10.0.0.3,nw_dst=10.0.0.2 purple=7
+
+#switch 4
+
+fvctl -n add-flowspace pfs7 4 1 in_port=1,nw_src=10.0.0.4,nw_dst=10.0.0.5 purple=7
+fvctl -n add-flowspace pfs8 4 1 in_port=1,nw_src=10.0.0.4,nw_dst=10.0.0.6 purple=7
+fvctl -n add-flowspace pfs9 4 1 in_port=2,nw_src=10.0.0.5,nw_dst=10.0.0.4 purple=7
+fvctl -n add-flowspace pfs10 4 1 in_port=2,nw_src=10.0.0.5,nw_dst=10.0.0.6 purple=7
+fvctl -n add-flowspace pfs11 4 1 in_port=3,nw_src=10.0.0.6,nw_dst=10.0.0.4 purple=7
+fvctl -n add-flowspace pfs12 4 1 in_port=3,nw_src=10.0.0.6,nw_dst=10.0.0.5 purple=7
+
+#switch 2
+
+fvctl -n add-flowspace pfs13 2 1 in_port=1,nw_src=10.0.0.1,nw_dst=10.0.0.4 purple=7
+fvctl -n add-flowspace pfs14 2 1 in_port=1,nw_src=10.0.0.1,nw_dst=10.0.0.5 purple=7
+fvctl -n add-flowspace pfs15 2 1 in_port=1,nw_src=10.0.0.1,nw_dst=10.0.0.6 purple=7
+fvctl -n add-flowspace pfs16 2 1 in_port=2,nw_src=10.0.0.4,nw_dst=10.0.0.1 purple=7
+fvctl -n add-flowspace pfs17 2 1 in_port=2,nw_src=10.0.0.5,nw_dst=10.0.0.1 purple=7
+fvctl -n add-flowspace pfs18 2 1 in_port=2,nw_src=10.0.0.6,nw_dst=10.0.0.1 purple=7
+
+fvctl -n add-flowspace pfs19 2 1 in_port=1,nw_src=10.0.0.2,nw_dst=10.0.0.4 purple=7
+fvctl -n add-flowspace pfs20 2 1 in_port=1,nw_src=10.0.0.2,nw_dst=10.0.0.5 purple=7
+fvctl -n add-flowspace pfs21 2 1 in_port=1,nw_src=10.0.0.2,nw_dst=10.0.0.6 purple=7
+fvctl -n add-flowspace pfs22 2 1 in_port=2,nw_src=10.0.0.4,nw_dst=10.0.0.2 purple=7
+fvctl -n add-flowspace pfs23 2 1 in_port=2,nw_src=10.0.0.5,nw_dst=10.0.0.2 purple=7
+fvctl -n add-flowspace pfs24 2 1 in_port=2,nw_src=10.0.0.6,nw_dst=10.0.0.2 purple=7
+
+
+fvctl -n add-flowspace pfs25 2 1 in_port=1,nw_src=10.0.0.3,nw_dst=10.0.0.4 purple=7
+fvctl -n add-flowspace pfs26 2 1 in_port=1,nw_src=10.0.0.3,nw_dst=10.0.0.5 purple=7
+fvctl -n add-flowspace pfs27 2 1 in_port=1,nw_src=10.0.0.3,nw_dst=10.0.0.6 purple=7
+fvctl -n add-flowspace pfs28 2 1 in_port=2,nw_src=10.0.0.4,nw_dst=10.0.0.3 purple=7
+fvctl -n add-flowspace pfs29 2 1 in_port=2,nw_src=10.0.0.5,nw_dst=10.0.0.3 purple=7
+fvctl -n add-flowspace pfs30 2 1 in_port=2,nw_src=10.0.0.6,nw_dst=10.0.0.3 purple=7
+
+
